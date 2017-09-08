@@ -5,7 +5,6 @@ package com.example.konrad.applicationsecond;
  */
 
 public class WeatherResults {
-    //
     public String temperature;
     public String windSpeed;
     public String pressure;

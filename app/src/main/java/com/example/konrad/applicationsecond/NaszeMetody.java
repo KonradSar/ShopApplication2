@@ -23,7 +23,7 @@ import java.util.Map;
  */
 
 public class NaszeMetody {
-   //
+
    public static Context AppContext;
    public static void InicjalizacjaNaszeMetody(Context appContext){
       AppContext = appContext;

@@ -35,7 +35,6 @@ class HttpCallTask extends AsyncTask<Void, Void, List<Currencies>> {
     private static final String MID = "mid";
     private static final String GET = "GET";
 
-
     @Override
     protected List<Currencies> doInBackground(Void... params) {
         try {
