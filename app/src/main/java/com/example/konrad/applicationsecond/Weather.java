@@ -22,7 +22,7 @@ import butterknife.ButterKnife;
  */
 
 public class Weather extends AsyncTask<Void,Void,WeatherResults> {
-    //
+
     private static String cityName;
     public Weather(String cityName) {
         this.cityName = cityName;

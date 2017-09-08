@@ -5,7 +5,7 @@ package com.example.konrad.applicationsecond;
  */
 
 public class ShoppingCart {
-    //
+
     public String productName;
     public int numberOfProducts;
     public double priceOfASingleProduct;

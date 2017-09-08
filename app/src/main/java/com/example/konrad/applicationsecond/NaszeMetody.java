@@ -42,7 +42,7 @@ public class NaszeMetody {
    public static boolean addThirdCurrencyLabel = false;
    public static boolean announceLimit = false;
    public static int counterCurrencyTimes = 0;
-   // testowa spacja
+
 
    public static String kurwajegomac;
    public static int isVisiblePLNTotalCosts = 0;

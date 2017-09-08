@@ -47,7 +47,7 @@ public class Shopping implements Serializable{
     }
     public String getPhotoPath() {
         return photoPath;
-        //
+
     }
 
     public void setPhotoPath(String photoPath) {

@@ -70,7 +70,7 @@ public class Weatherapi extends AppCompatActivity {
     @OnClick(R.id.cityEditText)
     public void show(){
         myThirdSound.start();
-        //
+
     }
 
     @OnClick(R.id.selectBtn)
