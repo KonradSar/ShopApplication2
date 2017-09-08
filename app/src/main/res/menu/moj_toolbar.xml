@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:divider="@drawable/separator"
+    android:showDividers="middle"
+
+    >
+
+
+    <item android:title="CountTrolley"
+        android:icon="@drawable/trolleyicon"
+        android:id="@+id/trolleybtn2"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        />
+    <!--<shape xmlns:android="http://schemas.android.com/apk/res/android" >-->
+        <!--<size android:height="2dip" />-->
+        <!--<solid android:color="#FFff0000" />-->
+    <!--</shape>-->
+
+    <View android:layout_height="fill_parent"
+        android:layout_width="2px"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/separator1" />
+
+    <item android:title="ClearTrolley"
+        android:icon="@drawable/clear_trolley"
+        android:id="@+id/cleartrolleybtn"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+
+        />
+
+
+
+    <item android:title="DownloadData"
+        android:icon="@drawable/download_data"
+        android:id="@+id/readExternalDatabtn"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+
+        />
+
+
+    <item android:title="SendMessage"
+        android:icon="@drawable/send_message"
+        android:id="@+id/sendMessageBtn"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        />
+    <item android:title="CountTrolley"
+        android:icon="@drawable/trolleyicon"
+        android:id="@+id/trolleybtn22"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        />
+    <item android:title="CountTrolley"
+        android:icon="@drawable/trolleyicon"
+        android:id="@+id/trolleybtn23"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        />
+
+
+</menu>

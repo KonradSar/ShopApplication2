@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.konrad.applicationsecond">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BATTERY_STATS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"><![CDATA[
+
+
+        >
+
+        >
+        >
+        >
+
+
+
+        ]]>
+        <activity android:name=".Uzytkownik" />
+        <activity android:name=".BatteryLevel" />
+
+        <activity android:name=".ToastServiceClass" /><![CDATA[
+
+
+        >
+
+
+        ]]>
+        <activity android:name=".MojPagerAdapter" />
+        <activity android:name=".MojTab1Fragment" />
+        <activity android:name=".MojTab2Fragment" /><![CDATA[
+
+        >
+        >
+
+        ]]>
+        <activity
+            android:name=".ShopRecyclerView"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoActionBar2" />
+        <activity
+            android:name=".AddProduct"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".ShoplineActivity"
+            android:screenOrientation="portrait" /><![CDATA[
+        >
+
+        ]]>
+        <activity android:name=".ApiWeather.weather" />
+        <activity
+            android:name=".Weatherapi"
+            android:screenOrientation="portrait" /><![CDATA[
+        >
+        >
+        ]]>
+        <activity android:name="com.example.konrad.TODO.DataBaseActivity2" />
+        <activity android:name="com.example.konrad.TODO.DutiesRecyclerView" />
+        <activity android:name="com.example.konrad.TODO.AddDuty" />
+        <activity android:name="com.example.konrad.TODO.DatePicker" />
+        <activity android:name=".Zarejestrujsie" />
+        <activity
+            android:name=".LekcjaFragmenty.LekcjaFragmenty"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".LekcjaFragmenty.LessonParts" />
+        <activity android:name=".Graphic"
+            android:screenOrientation="portrait">
+
+
+        </activity>>
+
+    </application>
+
+</manifest>

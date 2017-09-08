@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:dndroid="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/but2"
+    android:padding="10dp"
+    android:id="@+id/recyclerViewLay"
+    android:foreground="@drawable/circle">
+
+
+        <CheckBox
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/checkbox2"
+            android:layout_marginTop="16dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="75dp"
+             />
+
+        <TextView
+            android:id="@+id/nazwaZakupu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:text="winogrona czerwone"
+            android:textColor="@color/yellow2"
+            android:textSize="24sp"
+            android:inputType="text"
+            />
+
+        <TextView
+            android:id="@+id/cena"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nazwaZakupu"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="1"
+            android:textColor="@color/yellow2"
+            android:inputType="numberDecimal"
+
+            />
+
+        <TextView
+            android:id="@+id/cena2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/nazwaZakupu"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="143dp"
+            android:layout_marginTop="10dp"
+            android:text=" 1.99"
+            android:inputType="numberDecimal"
+            android:textColor="@color/yellow2"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/PLNlabel"
+
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="108dp"
+            android:layout_alignBottom="@+id/cena2"
+            android:layout_alignRight="@+id/nazwaZakupu"
+            android:layout_alignEnd="@+id/nazwaZakupu" />
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/deletebtn"
+            android:src="@drawable/bin2"
+            android:layout_marginTop="12dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="22dp"
+            />
+
+        <TextView
+            android:id="@+id/numberOfProductLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sztuk"
+            android:layout_alignBaseline="@+id/cena"
+            android:layout_alignBottom="@+id/cena"
+            android:layout_toRightOf="@+id/cena"
+            android:layout_toEndOf="@+id/cena"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp" />
+
+
+</RelativeLayout>

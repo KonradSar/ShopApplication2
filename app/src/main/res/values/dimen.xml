@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<dimen name="marginesLEWYSUPER">1dp</dimen>
+    <dimen name="textSize">40dp</dimen>
+    <dimen name="marginesPanstwa">10dp</dimen>
+</resources>

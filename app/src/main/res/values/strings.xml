@@ -1,0 +1,226 @@
+<resources>
+    <string name="app_name">"Shopping Application"</string>
+    <string name="PLAY">PLAY</string>
+    <string name="PLAY2">CHANGE</string>
+    <string name="PLAY3">MOVE</string>
+    <string name="PLAY4">ROTATE</string>
+    <string name="PLAY5">BLINK</string>
+    <string name="PLAY6">ZOOM</string>
+    <string name="AAA">MojaAplikacja</string>
+    <string name="ADDPRODUCTACTIVITY">""</string>
+
+    <string-array name="nations_array">
+        <item>Africa</item>
+        <item>Australia</item>
+        <item>Bytom</item>
+        <item>Sweden</item>
+    </string-array>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="panstwo">Panstwo</string>
+    <string name="stolica">Stolica</string>
+    <string name="product_name">Product Name</string>
+    <string name="numberofproducts">NumberofProducts</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_name_of_product">Enter Name Of Product</string>
+    <string name="r_id_nameofproductsedittext">R.id.nameOfProductsEditText</string>
+    <string name="r_id_numberofproductsedittext">R.id.numberOfProductsEditText</string>
+    <string name="choosen_date">Choosen date</string>
+    <string name="wydarzenie">Wydarzenie</string>
+    <string name="title_activity_lekcja_fragmenty">LekcjaFragmenty</string>
+    <string name="add_prod">Add Product</string>
+    <string name="i_d_like_to_enter_weight_unit">I Would Like To Enter Weight Unit</string>
+    <string name="enter_number_of_product">Enter Number Of Product</string>
+    <string name="enter_price_of_a_single_product">Enter Price Of a single Product</string>
+    <string name="enter_weight_of_product_in_kg">Enter Weight Of Product in [Kg]</string>
+    <string name="enter_price_for_1kg_of_product">Enter price for 1kg of Product</string>
+    <string name="i_d_like_to_enter_additional_info">I Would Like To Enter Additional Info</string>
+    <string name="enter_additional_info">Enter additional info</string>
+    <string name="OdczytaneZakupy">Downloaded From Memory</string>
+    <string name="BrakZakupów">There Are Not Any Shoppings Saved In Memory</string>
+    <string name="CzyszczeniePamięci">Memory Is Empty</string>
+    <string name="AddedProduct">Product Added To List</string>
+    <string name="FillEachLine">Please Fill Each Line</string>
+    <string name="Error">There Is A Problem With ReadFromExternalMEmory Method</string>
+    <string name="AdditionalInfoAlert">Additional Info Below</string>
+    <string name="AdditionalInfo">There Is No Additional Info For Selected Product</string>
+    <string name="CurrencyChoice">Select Currency</string>
+    <string name="Options">Select What Do You Want To Do</string>
+    <string name="TakePhoto">Take A Photo</string>
+    <string name="SelectFromGallery">Select Photo From Gallery</string>
+    <string name="i_would_like_to_add_a_photo">I Would Like To Add A Photo</string>
+    <string name="maximumValueForNumbOfProducts">Maximum Value For Number Of Products Is 999</string>
+    <string name="checkOutPropertyOfAllFirldsAboveInAddProductActivity">Please Check Out, If All Fields Above Are Filled In Properly</string>
+    <string name="maximumWeightOfProductInAddProdActivity">Maximum Value For Field "Weight Of Product" Is 999</string>
+    <string name="productAddedToCart">Product Added To The Cart</string>
+    <string name="ThereIsNoDataInExternalMem">Data Downloaded From External Memory</string>
+    <string name="RemovedFromCart">Product Removed From The Cart</string>
+    <string name="SelectedPhhoto">Selected Photo</string>
+    <string name="NewProductAddingNow">You Are Going To Add A New Product</string>
+    <string name="MaximumPriceOfASingProdd">Maximum Value For A Field "Price Of A Single Product" Is 999999</string>
+    <string name="MAximumValueForPriceOf100Grammms">Maximum Value For A Field "Price Of 1 Kg" Is 9999999</string>
+    <string name="DoYouWantToExitApp">Do You Want To Quit Shopping Application?</string>
+    <string name="Okey">OK</string>
+    <string name="Deny">DENY</string>
+    <string name="QuitApplication">Quit Application</string>
+    <string name="QuidToAddingProdLay">Quit To Product Adding</string>
+    <string name="NoInternetInformation">You Must To Switch On Internet Connection</string>
+    <string name="ThereIsPhotoSaveDForSelectedShopping">There Is A Photo Saved For Selected Shopping</string>
+    <string name="WouldYouLikeTOOverrideCurrentPhotoSavedForSelectedShopping">Would You Like To Override Current Photo?</string>
+    <string name="MAximumCurrenciesNumberInTrolleyIss">Maximum Number Of Currencies In Trolley Is 3</string>
+    <string name="EmptyCart">The Cart Is Empty</string>
+    <string name="YouCanOnlyOverrideCurrentCurrenciesInCart">You Can Only Override The Prices In Cart</string>
+    <string name="NoDataInExternalMem">There Is No Data Saved In External Memory</string>
+    <string name="theSameCurrencySelected">You Have Already Selected The Same Currency</string>
+    <string name="EmptyShoppingList">ShoppingList Is Empty</string>
+    <string name="betterCompareTheSameCurrencies">Recommended To Compare Shoppings With The Same Currency Label</string>
+    <string name="Cancel">Cancel</string>
+    <string name="restoredPLNCUrrencyAgain">Restored To PLN Currency</string>
+    <string name="NowClearTheCartAfterRestoringCurrency">Please, Clear The Cart Now</string>
+    <string name="thereIsAlreadySelectedPLNCurrencyLabel">There Is Already Selected PLN Currency</string>
+    <string name="sendOnlyBoughtShopp">Send Only Bought Shoppings</string>
+    <string name="sendOnlyShoppInCart">Send Only Cart Products</string>
+    <string name="sendWholeShoppList">Send The Whole Shopping List</string>
+    <string name="PriceInPLNTooBigToDisplay">The Price In PLN Is Too Big To Display</string>
+    <string name="PriceIn">Price In </string>
+    <string name="IsTooBig"> Is Too Big</string>
+    <string name="tobigpricesinthecarttodisplay">There Are Too Big Prices In The Cart To Display</string>
+    <string name="PricesInCurrencies">Prices In </string>
+    <string name="PricesInTwoCurrencies">Prices In PLN And </string>
+    <string name="tooBig"> Are Too Big To Display</string>
+    <string name="pleaseAddProductToList">Please Add Product To List</string>
+    <string name="and"> and </string>
+    <string name="warning">Your Alert</string>
+    <string name="sendShoppingListQuestion">Do you want to send shopping list?</string>
+    <string name="sendSms">Send SMS</string>
+    <string name="sendMail">Send An E-Mail</string>
+    <string name="productNo">Product No.</string>
+    <string name="weightOfProd">weight of product [kg] </string>
+    <string name="priceOfKg">price for 1[kg] of product </string>
+    <string name="totalPrice">total price </string>
+    <string name="unitPrice">unit price </string>
+    <string name="numberOfProddd">number of product </string>
+    <string name="pieces">Pieces</string>
+    <string name="shoppingListChart">Shopping List</string>
+    <string name="descriptionChart">Description Below</string>
+    <string name="namE">Product Name: </string>
+    <string name="currencY">Currency: </string>
+    <string name="numbeR">Number Of Product: </string>
+    <string name="priceForASing">Unit Price: </string>
+    <string name="priceTotall">Total Price: </string>
+    <string name="descriptions">Description: </string>
+    <string name="equity">Equity: </string>
+    <string name="pricekg">Price for 1[Kg] of product: </string>
+    <string name="weighttOfPRodd">Weight of product : </string>
+    <string name="additional_info">Additional Info</string>
+    <string name="save_as_bought">Save As Bought</string>
+    <string name="set_as_pre_bought">Set As Pre-Bought</string>
+    <string name="check_weather">Check Weather</string>
+    <string name="change_currency">Change Currency</string>
+    <string name="display_photo">Add Photo</string>
+    <string name="return_to_pln">Return To PLN</string>
+    <string name="sources">Sources Used In Shopping Application</string>
+    <string name="line1">1. Track in mp3 format named Cha Ching Register released under Attribution 3.0 license, downloaded in the fourth of September 2017 at 08:00 P.M. from https://soundbible.com/</string>
+    <string name="line2">2. Track in mp3 format named Click On released under Attribution 3.0 license, downloaded in the fourth of September 2017 at 08:00 P.M. from https://soundbible.com/</string>
+    <string name="line3">3. Track in mp3 format named Button Click Off released under Attribution 3.0 license, downloaded in the fourth of September 2017 at 08:00 P.M. from https://soundbible.com/</string>
+    <string name="line4">4. Track in mp3 format named Stapler released under Public Domain license, downloaded in the fourth of September 2017 at 08:00 P.M. from https://soundbible.com/</string>
+    <string name="line5">5. Track in mp3 format named A Tone released under Public Domain license, downloaded in the fourth of September 2017 at 08:00 P.M. from https://soundbible.com/</string>
+    <string name="line6">6. Track in mp3 format named Computer Error released under Attribution 3.0 license, downloaded in the fourth of September 2017 at 08:00 P.M. from https://soundbible.com/</string>
+    <string name="line7">7. Track in mp3 format named Coin Drop released under Public Domain license, downloaded in the fourth of September 2017 at 08:00 P.M. from https://soundbible.com/</string>
+    <string name="line8">8. Track in mp3 format named Finger Breaking released under Attribution 3.0 license, downloaded in the fourth of September 2017 at 08:00 P.M. from https://soundbible.com/</string>
+    <string name="line9">9. Track in mp3 format named Switch released under Attribution 3.0 license, downloaded in the fourth of September 2017 at 08:00 P.M. from https://soundbible.com/</string>
+    <string name="line10">10. There are all Grafhics and Photos in Shopping Application downloaded from https://pixabay.com/pl/ as free for personal and commercial use and do not require assignment. These data were downloaded in the fourth of September 2017 at 10:00 P.M.</string>
+</resources>

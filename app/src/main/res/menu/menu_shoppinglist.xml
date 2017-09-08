@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/additional_info"
+        app:showAsAction="always"
+        android:icon="@drawable/info"
+        android:id="@+id/additionalInfo"
+        />
+
+    <item android:title="@string/save_as_bought"
+        app:showAsAction="always"
+        android:icon="@drawable/info"
+        android:id="@+id/goShopping"/>
+
+    <item android:title="@string/set_as_pre_bought"
+        app:showAsAction="always"
+        android:icon="@drawable/info"
+        android:id="@+id/goBack"/>
+
+    <item android:title="@string/check_weather"
+        app:showAsAction="always"
+        android:icon="@drawable/info"
+        android:id="@+id/checkWeather"/>
+
+    <item android:title="@string/change_currency"
+        app:showAsAction="always"
+        android:icon="@drawable/info"
+        android:id="@+id/getCurrency"/>
+
+    <item android:title="@string/display_photo"
+        app:showAsAction="always"
+        android:icon="@drawable/info"
+        android:id="@+id/getPhoto"/>
+
+    <item android:title="@string/return_to_pln"
+        app:showAsAction="always"
+        android:icon="@drawable/info"
+        android:id="@+id/getPLNLabel"/>
+
+
+
+
+
+</menu>

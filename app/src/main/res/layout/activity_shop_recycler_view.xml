@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:id="@+id/coordinator"
+    >
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbarView"
+            android:fitsSystemWindows="true"
+            android:background="@color/cream"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:layout_collapseMode="pin"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+
+
+            >
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/clearlist"
+                    app:showAsAction="ifRoom|withText"
+                    android:id="@+id/clearListInShopRecycler"
+                    android:foregroundGravity="center_horizontal"
+                    />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    app:showAsAction="ifRoom|withText"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/trolleyicon"
+                    android:id="@+id/trolleybtn"
+                    android:foregroundGravity="center_horizontal"
+
+
+                    />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cleartrolleybtn"
+                    android:src="@drawable/clear_trolley"
+                    android:foregroundGravity="center_horizontal"
+                    />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/readExternalDatabtn"
+                    android:src="@drawable/download_data"
+                    android:foregroundGravity="center_horizontal"
+                    />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sendMessageBtn"
+                    android:src="@drawable/send_message"
+                    android:foregroundGravity="center_horizontal"
+                    />
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/goToCharts"
+                    android:src="@drawable/charts"
+                    android:foregroundGravity="center_horizontal"
+                    />
+
+        </android.support.v7.widget.Toolbar>
+
+
+        <android.support.v7.widget.RecyclerView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="com.example.konrad.applicationsecond.RecyclerViewActivity"
+            android:id="@+id/mojRecyclerView2"
+            android:layout_marginTop="?attr/actionBarSize"
+            android:layout_marginBottom="55dp"
+            android:background="@drawable/desksecond"
+            >
+
+        </android.support.v7.widget.RecyclerView>
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/floatingbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginBottom="17dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/add"
+
+
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="bottom">
+
+                <android.support.v7.widget.Toolbar
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bottomtoolbar"
+                    android:background="@color/cream">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/shoppingsummary"
+                            android:layout_weight="1"
+                            />
+
+                </android.support.v7.widget.Toolbar>
+
+        </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.konrad.applicationsecond.ApiWeather.weather"
+    android:background="@drawable/floral"
+    >
+
+    <!--<android.support.v7.widget.Toolbar-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:id="@+id/toolbarnumberone">-->
+        <!--&lt;!&ndash;<ImageButton&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/goBackk"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:background="@mipmap/go_backk"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_marginLeft="10dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;/>&ndash;&gt;-->
+
+
+    <!--</android.support.v7.widget.Toolbar>-->
+    <TextView
+        android:layout_alignParentTop="true"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:id="@+id/cityName"
+        android:background="@drawable/but2"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:textColor="@color/yellow2"
+        android:layout_margin="7dp"
+        android:text="Load City"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:id="@+id/temperatureView"
+        android:textAlignment="center"
+        android:textColor="@color/yellow2"
+        android:background="@drawable/but2"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="14dp"
+        android:layout_below="@+id/cityName"
+        android:layout_margin="7dp"
+        android:padding="10dp"
+        />
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/temperatureView"
+        android:id="@+id/secondText"
+        android:background="@drawable/but2"
+        android:layout_alignParentRight="true"
+        android:textAlignment="center"
+        android:textColor="@color/yellow2"
+        android:layout_margin="7dp"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/secondText"
+        android:id="@+id/pressureView"
+        android:background="@drawable/but2"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="14dp"
+        android:textAlignment="center"
+        android:textColor="@color/yellow2"
+        android:layout_margin="7dp"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/pressureView"
+        android:id="@+id/clouds"
+        android:background="@drawable/but2"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="14dp"
+        android:textAlignment="center"
+        android:textColor="@color/yellow2"
+        android:layout_margin="7dp"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/clouds"
+        android:id="@+id/description"
+        android:background="@drawable/but2"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="14dp"
+        android:textAlignment="center"
+        android:textColor="@color/yellow2"
+        android:layout_margin="7dp"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:id="@+id/thirdItem"
+        android:textAlignment="center"
+        android:textColor="@color/yellow2"
+        android:background="@drawable/but2"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="14dp"
+        android:layout_below="@+id/description"
+        android:layout_margin="7dp"
+        android:padding="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/thirdItem">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/inputCityLayoutt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/white"
+            android:layout_marginTop="20dp">
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/cityEditText"
+                android:hint="Enter city name"
+                android:textColor="@color/yellow2"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="7dp"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/selectBtn"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/cityEditText"
+            android:background="@drawable/but3"
+            android:text="Load City"
+            android:textColor="@color/redish"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="7dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.konrad.applicationsecond.PobieranieDanychZServera">
+    <TextView
+        android:id="@+id/textView6"
+        android:padding="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Actual Temp Below"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/textView5"
+        android:padding="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView99"
+        android:hint="Enter City"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+</LinearLayout>

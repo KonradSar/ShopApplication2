@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FFC107</color>
+    <color name="green">#00ff00</color>
+    <color name="yellowish">#ff9933</color>
+    <color name="greenish"> #99cc00</color>
+    <color name="redish">#800000</color>
+    <color name="purple">#FF00FF</color>
+    <color name="primary">#FFC107</color>
+    <color name="white">#FDFFF5</color>
+    <color name="bluelike">#535766</color>
+    <color name="yellow2">#DFD25E</color>
+    <color name="cayene">#AF4425</color>
+    <color name="caramel">#bf9053</color>
+    <color name="cream">#EBDCB2</color>
+    <color name="FIRST">#AA3939</color>
+    <color name="SECOND">#AA5939</color>
+    <color name="THIRD">#AA6C39</color>
+    <color name="FOURTH">#AA7939</color>
+    <color name="FIFTH">#AA8439</color>
+    <color name="SIXTH">#AA8E39</color>
+    <color name="SEVENTH">#AA9739</color>
+    <color name="EIGHTH">#AA9E39</color>
+    <color name="NINETH">#AAAA39</color>
+    <color name="TENTH">#91A437</color>
+    <color name="ELEVENTH">#7D9F35</color>
+    <color name="TWELVETH">#629833</color>
+    <color name="THIRTEENTH">#2D882D</color>
+    <color name="FOURTEENTH">#277455</color>
+    <color name="FIVETEENTH">#236467</color>
+    <color name="SIXTEENTH">#2A4E6E</color>
+    <color name="SEVENTEENTH">#2E4272</color>
+    <color name="EIGHTEENTH">#353377</color>
+    <color name="NINETEENTH">#413070</color>
+    <color name="TWENTYTH">#4C2D73</color>
+    <color name="TWENTYFIRST">#592A71</color>
+    <color name="TWENTYSECOND">#6F256F</color>
+    <color name="TWENTYTHIRD">#882D61</color>
+    <color name="TWENTYFOURTH">#983351</color>
+    <color name="TWENTYFIVETH">#A8383B</color>
+    <color name="trans">#00FFFFFF </color>
+
+
+
+
+</resources>

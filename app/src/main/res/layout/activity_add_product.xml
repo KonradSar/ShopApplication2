@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.konrad.applicationsecond.SecondPanstwa"
+    android:fitsSystemWindows="true"
+    android:id="@+id/addView"
+    >
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:fitsSystemWindows="true">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/collapsingLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:contentScrim="?attr/colorPrimary"
+            app:expandedTitleMarginStart="48dp"
+            app:expandedTitleMarginEnd="64dp"
+            android:fitsSystemWindows="true"
+            app:title="@string/add_prod">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolBar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                app:layout_collapseMode="pin">
+
+            </android.support.v7.widget.Toolbar>
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fitsSystemWindows="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/boxes"
+                app:layout_collapseMode="parallax" />
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:context="com.example.konrad.applicationsecond.AddProduct"
+            android:background="@drawable/descmodified"
+            >
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/nameOfProductLay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textColorHint="@color/white"
+                android:layout_marginTop="20dp"
+                >
+
+                <EditText
+                    android:id="@+id/nameOfProductsEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="@string/enter_name_of_product"
+                    android:textColor="@color/white"
+                    android:inputType="text" />`
+
+            </android.support.design.widget.TextInputLayout>
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/nameOfProductLay"
+                android:layout_marginTop="32dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/colorAccent"
+                android:text="@string/i_d_like_to_enter_weight_unit"
+                android:layout_weight="1"
+                android:id="@+id/btnSwitch"/>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/numberOfProductsLay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="34dp"
+                android:layout_below="@id/btnSwitch"
+                android:textColorHint="@color/white">
+                <EditText
+                    android:id="@+id/numberOfProductsEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/enter_number_of_product"
+                    android:inputType="number"
+                    android:textColor="@color/white"/>
+            </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/priceLay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_below="@id/numberOfProductsLay"
+        android:textColorHint="@color/white">
+        <EditText
+            android:id="@+id/priceEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/enter_price_of_a_single_product"
+            android:inputType="numberDecimal"
+            android:textColor="@color/white"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/weightOfProductLay"
+        android:layout_marginTop="38dp"
+        android:layout_below="@id/priceLay"
+        android:textColorHint="@color/white">
+        <EditText
+            android:id="@+id/weightOfProductEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/enter_weight_of_product_in_kg"
+            android:inputType="numberDecimal"
+            android:textColor="@color/white"/>
+
+    </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/priceFor100gramsOfProductLay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_below="@id/weightOfProductLay"
+                android:textColorHint="@color/white">
+                <EditText
+                    android:id="@+id/priceFor100gramsOfProductEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/enter_price_for_1kg_of_product"
+                    android:inputType="numberDecimal"
+                    android:textColor="@color/white"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/priceFor100gramsOfProductLay"
+                android:layout_marginTop="42dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/colorAccent"
+                android:text="@string/i_d_like_to_enter_additional_info"
+                android:layout_weight="1"
+                android:id="@+id/btnSwitchAddInfo"/>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/additionalInfoOfProductLay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="44dp"
+                android:layout_below="@id/btnSwitchAddInfo"
+                android:textColorHint="@color/white">
+                <EditText
+                    android:id="@+id/additionalInfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/enter_additional_info"
+                    android:inputType="text"
+                    android:textColor="@color/white"/>
+            </android.support.design.widget.TextInputLayout>
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/additionalInfoOfProductLay"
+                android:layout_marginTop="45dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/colorAccent"
+                android:text="@string/i_would_like_to_add_a_photo"
+                android:layout_weight="1"
+                android:id="@+id/btnAddPhoto"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="47dp"
+                android:layout_below="@id/btnAddPhoto"
+                android:layout_marginBottom="10dp">
+
+                <Button
+                    android:id="@+id/btnRegister"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/addproducttolistlift"
+                    android:layout_margin="10dp"
+                    />
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/gotoListBtn"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/gotolistbtnlift"
+                    android:layout_margin="10dp"
+                    />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/clearExternalMemory"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/clear"
+                    android:layout_margin="10dp"/>
+
+
+            </LinearLayout>
+        </RelativeLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>
