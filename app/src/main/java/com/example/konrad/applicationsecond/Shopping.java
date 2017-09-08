@@ -8,6 +8,7 @@ import java.io.Serializable;
  */
 
 public class Shopping implements Serializable{
+    //
     public String productName;
     public int numberOfProducts;
     public String additionalInfo;

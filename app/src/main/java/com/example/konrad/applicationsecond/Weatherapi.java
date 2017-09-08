@@ -23,6 +23,7 @@ import butterknife.OnClick;
 
 
 public class Weatherapi extends AppCompatActivity {
+    //
     private static final int MY_PERMISSIONS_REQUEST_INTERNET = 1;
     final String TAG = "KonradApp";
     MediaPlayer myThirdSound;

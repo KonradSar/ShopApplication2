@@ -14,6 +14,7 @@ import java.util.Map;
  */
 
 public class CurrenciesAdapter extends BaseAdapter {
+    //
     private Context appContext;
     private List<Currencies> currencies;
 

@@ -51,6 +51,7 @@ import java.util.concurrent.ExecutionException;
 import butterknife.ButterKnife;
 
 public class ShopRecyclerView extends AppCompatActivity {
+    //
     private static final int RESULT_LOAD_IMAGE = 2;
     private int MAKE_IMAGE_REQUEST = 3;
     android.support.design.widget.CoordinatorLayout coordinator;

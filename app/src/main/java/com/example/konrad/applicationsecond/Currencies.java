@@ -5,6 +5,7 @@ package com.example.konrad.applicationsecond;
  */
 
 public class Currencies {
+    //
     public String currency;
     public String code;
     public double value;

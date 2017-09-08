@@ -42,7 +42,7 @@ import java.util.Locale;
 import java.util.Random;
 
 public class Graphic extends AppCompatActivity {
-
+//
     int counter;
     private float[] yData = NaszeMetody.listBefore;
     private String[] xData = NaszeMetody.listBefore2;
