@@ -23,8 +23,6 @@ import java.util.Map;
  */
 
 public class NaszeMetody {
-
-
    public static Context AppContext;
    public static void InicjalizacjaNaszeMetody(Context appContext){
       AppContext = appContext;
@@ -42,9 +40,7 @@ public class NaszeMetody {
    public static boolean addThirdCurrencyLabel = false;
    public static boolean announceLimit = false;
    public static int counterCurrencyTimes = 0;
-
-
-   public static String kurwajegomac;
+   public static String varrriablee;
    public static int isVisiblePLNTotalCosts = 0;
    public static boolean overrideResultForCurrencyOne = false;
    public static boolean overrideResultForCurrencyTwo = false;

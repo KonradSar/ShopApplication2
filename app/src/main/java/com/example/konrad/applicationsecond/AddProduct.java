@@ -9,10 +9,7 @@ import android.database.Cursor;
 import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Environment;
-import android.provider.ContactsContract;
 import android.provider.MediaStore;
-import android.provider.Settings;
-import android.support.design.widget.Snackbar;
 import android.support.design.widget.TextInputLayout;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AlertDialog;
@@ -25,7 +22,6 @@ import android.widget.EditText;
 import android.widget.Switch;
 import android.widget.Toast;
 
-import com.github.mikephil.charting.data.BarEntry;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
@@ -35,7 +31,6 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
 import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.List;
@@ -45,13 +40,9 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-import static android.R.attr.type;
 import static com.example.konrad.applicationsecond.NaszeMetody.shoppingList;
 
 public class AddProduct extends AppCompatActivity {
-
-
-
     private int MAKE_IMAGE_REQUEST = 3;
     private static final int RESULT_LOAD_IMAGE = 2;
     public static final int REQUEST_CODE = 1;
@@ -116,15 +107,11 @@ public class AddProduct extends AppCompatActivity {
 
         }
     }
-
-
     @OnClick(R.id.btnRegister)
     public void show() {
         myThirdSound.start();
-//        List<Shopping> shoppingList = new ArrayList<>();
-//        shoppingList = NaszeMetody.shoppingList;
         if (choiceBtn.isChecked() && addExtraInfoAboutProduct.isChecked() && addPhotobtn.isChecked()) {
-            NaszeMetody.kurwajegomac = "bbbbbb";
+            NaszeMetody.varrriablee = "bbbbbb";
             if (nameOfProduct.getText().toString().matches("")) {
                 Toast.makeText(getApplicationContext(), R.string.FillEachLine, Toast.LENGTH_SHORT).show();
             } else if (weightOfProduct.getText().toString().matches("")) {
@@ -178,7 +165,7 @@ public class AddProduct extends AppCompatActivity {
 
         }
             else if (choiceBtn.isChecked() && !addExtraInfoAboutProduct.isChecked() && addPhotobtn.isChecked()){
-            NaszeMetody.kurwajegomac = "bbbbbb";
+            NaszeMetody.varrriablee = "bbbbbb";
             if (nameOfProduct.getText().toString().matches("")) {
                 Toast.makeText(getApplicationContext(), R.string.FillEachLine, Toast.LENGTH_SHORT).show();
             } else if (weightOfProduct.getText().toString().matches("")) {
@@ -227,7 +214,7 @@ public class AddProduct extends AppCompatActivity {
             }
         }
         else if (!choiceBtn.isChecked() && addExtraInfoAboutProduct.isChecked() && addPhotobtn.isChecked()) {
-            NaszeMetody.kurwajegomac = "aaaaa";
+            NaszeMetody.varrriablee = "aaaaa";
             if (nameOfProduct.getText().toString().matches("")) {
                 Toast.makeText(getApplicationContext(), R.string.FillEachLine, Toast.LENGTH_SHORT).show();
             } else if (numberOfProducts.getText().toString().matches("")) {
@@ -281,7 +268,7 @@ public class AddProduct extends AppCompatActivity {
 
         }
             else if (!choiceBtn.isChecked() && !addExtraInfoAboutProduct.isChecked() && addPhotobtn.isChecked()){
-            NaszeMetody.kurwajegomac = "aaaaa";
+            NaszeMetody.varrriablee = "aaaaa";
             if (nameOfProduct.getText().toString().matches("")) {
                 Toast.makeText(getApplicationContext(), R.string.FillEachLine, Toast.LENGTH_SHORT).show();
             } else if (numberOfProducts.getText().toString().equals("")) {
@@ -333,7 +320,7 @@ public class AddProduct extends AppCompatActivity {
 
         }
         else if (choiceBtn.isChecked() && addExtraInfoAboutProduct.isChecked() && !addPhotobtn.isChecked()){
-            NaszeMetody.kurwajegomac = "bbbbbb";
+            NaszeMetody.varrriablee = "bbbbbb";
             if (nameOfProduct.getText().toString().equals("")) {
                 Toast.makeText(getApplicationContext(), R.string.FillEachLine, Toast.LENGTH_SHORT).show();
                 stopAdding = true;
@@ -390,7 +377,7 @@ public class AddProduct extends AppCompatActivity {
         }
 
         else if (choiceBtn.isChecked() && !addExtraInfoAboutProduct.isChecked() && !addPhotobtn.isChecked()){
-            NaszeMetody.kurwajegomac = "bbbbbb";
+            NaszeMetody.varrriablee = "bbbbbb";
             if (nameOfProduct.getText().toString().matches("")) {
                 Toast.makeText(getApplicationContext(), R.string.FillEachLine, Toast.LENGTH_SHORT).show();
             } else if (weightOfProduct.getText().toString().matches("")) {
@@ -439,7 +426,7 @@ public class AddProduct extends AppCompatActivity {
 
         }
         else if (!choiceBtn.isChecked() && addExtraInfoAboutProduct.isChecked() && !addPhotobtn.isChecked()){
-            NaszeMetody.kurwajegomac = "aaaaa";
+            NaszeMetody.varrriablee = "aaaaa";
             if (nameOfProduct.getText().toString().matches("")) {
                 Toast.makeText(getApplicationContext(), R.string.FillEachLine, Toast.LENGTH_SHORT).show();
             } else if (numberOfProducts.getText().toString().matches("")) {
@@ -490,7 +477,7 @@ public class AddProduct extends AppCompatActivity {
 
         }
         else if (!choiceBtn.isChecked() && !addExtraInfoAboutProduct.isChecked() && !addPhotobtn.isChecked()){
-            NaszeMetody.kurwajegomac = "aaaaa";
+            NaszeMetody.varrriablee = "aaaaa";
             if (nameOfProduct.getText().toString().equals("")) {
                 Toast.makeText(getApplicationContext(), R.string.FillEachLine, Toast.LENGTH_SHORT).show();
             } else if (numberOfProducts.getText().toString().equals("")) {
@@ -539,12 +526,9 @@ public class AddProduct extends AppCompatActivity {
                 pathToPhoto = "";
                 Intent intent = new Intent(AddProduct.this, ShopRecyclerView.class);
                 startActivity(intent);
-
             }
         }
     }
-
-
     @OnClick(R.id.btnSwitch)
     public void select(){
         myFourthSound.start();

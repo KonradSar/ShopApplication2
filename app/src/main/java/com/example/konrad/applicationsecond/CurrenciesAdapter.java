@@ -43,7 +43,6 @@ public class CurrenciesAdapter extends BaseAdapter {
     }
 
 
-
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         View v = View.inflate(appContext, R.layout.rowsingle, null);
