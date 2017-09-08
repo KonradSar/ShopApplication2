@@ -75,7 +75,7 @@ public class ShopRecyclerView extends AppCompatActivity {
     MediaPlayer mySeventhSound;
     MediaPlayer myEighthSound;
     MediaPlayer myNinethSound;
-
+    // testowa spacja
 
     @Override
     public boolean onContextItemSelected(MenuItem item) {

@@ -8,7 +8,7 @@ import android.text.Spanned;
 import android.view.MenuItem;
 import android.widget.RelativeLayout;
 
-import com.example.konrad.TODO.Duties;
+
 import com.google.gson.Gson;
 
 import java.io.File;
@@ -31,7 +31,6 @@ public class NaszeMetody {
    }
    public static List<Shopping> shoppingList = new ArrayList<>();
    public static List<ShoppingCart> shoppingCart = new ArrayList<>();
-   public static List<Duties> dutiesList = new ArrayList<>();
    public static double counterHelper = 0.00;
    public static double finalResult = 0.00;
    public static double resultForAnotherCurrency1 = 0.00;
@@ -43,6 +42,7 @@ public class NaszeMetody {
    public static boolean addThirdCurrencyLabel = false;
    public static boolean announceLimit = false;
    public static int counterCurrencyTimes = 0;
+   // testowa spacja
 
    public static String kurwajegomac;
    public static int isVisiblePLNTotalCosts = 0;

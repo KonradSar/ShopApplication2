@@ -39,3 +39,4 @@ public class Currencies {
         this.value = value;
     }
 }
+// testowa spacja

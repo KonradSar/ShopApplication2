@@ -157,6 +157,7 @@ public class Graphic extends AppCompatActivity {
 
             @Override
             public void onNothingSelected() {
+                // testowa spacja
 
             }
         });

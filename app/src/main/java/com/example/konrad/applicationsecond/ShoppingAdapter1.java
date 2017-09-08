@@ -40,6 +40,7 @@ import java.util.Locale;
  */
 
 public class ShoppingAdapter1 extends RecyclerView.Adapter<ShoppingAdapter1.MyViewHolder> {
+    //
     private static  MediaPlayer mySound;
     private List<Shopping> shoppingList;
     ImageLoader imageLoader;

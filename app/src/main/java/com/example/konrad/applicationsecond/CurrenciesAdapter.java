@@ -50,6 +50,7 @@ public class CurrenciesAdapter extends BaseAdapter {
         TextView listViewElement = (TextView) v.findViewById(R.id.textView1111);
         listViewElement.setText(currencies.get(position).getCurrency() + currencies.get(position).getValue());
         return v;
+        // testowa spacja
     }
 
 

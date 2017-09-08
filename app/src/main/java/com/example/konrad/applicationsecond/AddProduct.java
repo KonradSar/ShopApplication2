@@ -51,7 +51,7 @@ import static com.example.konrad.applicationsecond.NaszeMetody.shoppingList;
 public class AddProduct extends AppCompatActivity {
 
 
-
+    // testowa spacja
     private int MAKE_IMAGE_REQUEST = 3;
     private static final int RESULT_LOAD_IMAGE = 2;
     public static final int REQUEST_CODE = 1;
